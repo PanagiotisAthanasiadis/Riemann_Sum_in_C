@@ -12,7 +12,7 @@ void Pn(double a,double b,double dx,double ptr[])
     for(int i=0; i<=n; i++) // calculating partition vector
     {
         //printf("%lf \n",i * dx); Debug
-        ptr[i] = i * dx;
+        ptr[i] = a+i * dx;
     }      
 }
 
